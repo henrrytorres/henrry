@@ -1,0 +1,418 @@
+    1  ifconfig
+    2  IFCONFIG
+    3  ifconfig
+    4  sudo apt-get update
+    5  sudo apt-get upgrade
+    6  sudo apt-get install vsftpd
+    7  sudo nano /etc/vsftpd.conf
+    8  sudo service vsftpd restart
+    9  sudo service vsftpd start
+   10  ifconfig
+   11  sudo useradd hernan
+   12  sudo mkdir /home/hernan
+   13  sudo chown hernan:users /home/hernan
+   14  sudo passwd invitado
+   15  sudo passwd hernan
+   16  sudo su -l hernan
+   17  su -l hernan
+   18  sudo nano /etc/network/interfaces
+   19  cd /etc/network
+   20  ls
+   21  sudo cp interfaces interfaces2
+   22  ls
+   23  cd ..
+   24  cd .
+   25  cd ..
+   26  sudo $HOME
+   27  $HOME
+   28  CD ..
+   29  cd ..
+   30  cd /home
+   31  cd ..
+   32  cd $HOME
+   33  EXIT
+   34  exit
+   35  sudo apt-get install apache2
+   36  sudo apt-get install libapache2-mod-php5 libapache2-mod-per12 php5-cli php5-common php4-c
+   37  sudo apt-get install libapache2-mod-php5 libapache2-mod-per12 php5-cli php5-common php5-c
+   38  sudo apt-get install libapache2-mod-php5 libapache2-mod-perl2 php5-cli php5-common php5-c
+   39  sudo apt-get install libapache2-mod-php5 libapache2-mod-perl2 php5-cli php5-common php5-curl php5-dev php5-gd php5-imap php5-ldap php5-mhash php5-mysql php5-odbc
+   40  exit
+   41  sudo raspi-config
+   42  exit
+   43  cd /var/www
+   44  ls
+   45  cd hyml
+   46  cd html
+   47  ls
+   48  sudo nano info.php
+   49  cd $HOME
+   50  sudo apt-get install mysql-server mysql-client php5-mysql
+   51  sudo service mysql start
+   52  mysql -u root -p
+   53  exit
+   54  sudo apt-get install xrdp
+   55  ping 192.168.1.11
+   56  sudo reboot
+   57  sudo apt-get install xrdp
+   58  sudo poweroff
+   59  sudo apt-get install xrdp
+   60  sudo apt-get up
+   61  sudo /etc/init.d/vsftpd restart
+   62  sudo /etc/init.d/vsftpd status
+   63  sudo /etc/network/interfaces
+   64  sudo nano /etc/network/interfaces
+   65  ifconfig
+   66  pwd
+   67  cd ..
+   68  sudo mkdir usuarios 
+   69  cd usuarios/
+   70  sudo useradd albert
+   71  sudo passwd albert
+   72  sudo mkdir /home/usuarios/albert
+   73  ls
+   74  sudo usermod -d /home/usuarios/albert albert
+   75  sudo usermod -g ftp albert
+   76  ls -l
+   77  sudo chown -R pi /var/www
+   78  sudo reboot
+   79  ftp albert
+   80  su -l
+   81  su -l albert
+   82  sudo apt-get install openssh-server openssh-client 
+   83  sudo rpm -qa vsftpd
+   84  rpm -qa vsftpd
+   85  ls
+   86  cd  ..
+   87  ls
+   88  cd
+   89  sudo su
+   90  sudo su albert
+   91  sudo su
+   92  pwd
+   93  cd ..
+   94  ls
+   95  cd usuarios
+   96  cd albert
+   97  sudo mkdir public_html
+   98  ls
+   99  cd ..
+  100  cd 
+  101  sudo useradd pru
+  102  sudo adduser prueba
+  103  sudo su prueba
+  104  sudo nano /etc/vsftpd.conf
+  105  sudo nano /etc/int.d/vsftpd restart
+  106  sudo /etc/int.d/vsftpd restart
+  107  sudo nano /etc/vsftpd.conf
+  108  sudo /etc/init.d/vsftpd restart
+  109  sudo /etc/init.d/vsftpd status
+  110  pwd
+  111  cd
+  112  cd /home/usuarios
+  113  ls -l
+  114  sudo chmod +777 albert
+  115  ls -l
+  116  sudo nano /etc/vsftpd.conf
+  117  sudo /etc/init.d/vsftpd restart
+  118  sudo /etc/init.d/vsftpd status
+  119  cd
+  120  cd /home/
+  121  ls
+  122  sudo chmod +777 hernan
+  123  ls -l
+  124  sudo nano /etc/vsftpd.conf
+  125  sudo /etc/init.d/vsftpd restart
+  126  sudo /etc/init.d/vsftpd status
+  127  sudo /etc/init.d/vsftpd stop
+  128  sudo /etc/init.d/vsftpd start
+  129  sudo /etc/init.d/vsftpd status
+  130  sudo su
+  131  sudo apt-get install mozilla
+  132  sudo apt-get install mozillafirefox
+  133  sudo apt-get install mozilla_firefox
+  134  sudo nano /etc/vsftpd.chroot_list
+  135  sudo nano /etc/vsftpd.conf
+  136  sudo /etc/init.d/vsftpd restart
+  137  sudo /etc/init.d/vsftpd status
+  138  sudo adduser henrry
+  139  sudo mkdir /home/usuarios/henrry
+  140  cd
+  141  pwd
+  142  cd /home/usuarios
+  143  ls
+  144  ls -l
+  145  sudo usermod -d henrry henrry
+  146  sudo usermod -g ftp henrry
+  147  ls -l
+  148  sudo usermod -d henrry
+  149  cd /home/usuarios
+  150  sudo chmod +777 henrry
+  151  ls -l
+  152  cd henrry
+  153  mkdir documentos
+  154  rm documentos
+  155  sudo rm documentos
+  156  sudo chown henrry /home/usuarios/henrry/
+  157  sudo chgrp ftp /home/usuarios/henrry/
+  158  ls -l
+  159  cd ..
+  160  ls -l
+  161  sudo chown albert /home/usuarios/albert/
+  162  sudo chgrp ftp /home/usuarios/albert/
+  163  ls -l
+  164  sudo userdel prue
+  165  sudo cat /etc/passwd
+  166  sudo redhad-config-users
+  167  who
+  168  redhad-config-users
+  169  sudo userdel henrry
+  170  sudo cat /etc/passwd
+  171  sudo userdel pru
+  172  sudo cat /etc/passwd
+  173  cd
+  174  pwd
+  175  sudo useradd henrry
+  176  sudo useradd user1
+  177  sudo passwd user1
+  178  mkdir /home/usuarios/user1
+  179  sudo mkdir /home/usuarios/user1
+  180  sudo usermod -d /home/usuarios/user1 user1
+  181  sudo usermod -g /home/usuarios/user1 user1
+  182  sudo usermod -g ftp user1
+  183  sudo chown user1 /home/usuarios/user1/
+  184  sudo chgrp ftp /home/usuarios/user1/
+  185  cd /home/usuarios/user1/
+  186  sudo mkdir Documentos
+  187  sudo mkdir Proyectos
+  188  sudo mkdir Informes
+  189  sudo useradd henrry
+  190  sudo grpdel henrry
+  191  sudo deluser henrry
+  192  sudo useradd henrry
+  193  sudo useradd -g henrry
+  194  cd
+  195  sudo deluser -g henrry
+  196  sudo useradd -g henrry
+  197  sudo useradd henrry
+  198  sudo passwd henrry
+  199  sudo mkdir /home/usuarios/henrry
+  200  sudo usermod -d /home/usuarios/henrry henrry
+  201  sudo usermod -g ftp henrry
+  202  sudo chown henrry /home/usuarios/henrry/
+  203  sudo chgrp ftp /home/usuarios/henrry/
+  204  sudo mkdir /home/usuarios/henrry/Documentos
+  205  sudo mkdir /home/usuarios/henrry/Poyectos
+  206  sudo mkdir /home/usuarios/henrry/Proyectos
+  207  sudo mkdir /home/usuarios/henrry/Paginas_HTML
+  208  sudo useradd hernan
+  209  sudo passwd hernan
+  210  sudo mkdir /home/usuarios/hernan
+  211  sudo usermod -d /home/usuarios/hernan hernan
+  212  sudo usermod -g ftp hernan
+  213  sudo chown henrry /home/usuarios/hernan/
+  214  sudo chown hernan /home/usuarios/hernan/
+  215  sudo chgrp ftp /home/usuarios/hernan/
+  216  sudo mkdir /home/usuarios/henrry/Documentos
+  217  sudo mkdir /home/usuarios/hernan/Documentos
+  218  sudo mkdir /home/usuarios/hernan/Proyectos
+  219  sudo mkdir /home/usuarios/hernan/Paginas_HTML
+  220  history
+  221  history > listacomandosFTP.txt
+  222  ls
+  223  nano -c listacomandosFTP.txt 
+  224  cd
+  225  pwd
+  226  cd ..
+  227  ls
+  228  cd var
+  229  ls
+  230  cd ..
+  231  cd etc
+  232  ls
+  233  cd ..
+  234  cd var
+  235  ls
+  236  cd log
+  237  ls
+  238  sudo nano vsftpd.log 
+  239  cd
+  240  clear
+  241  sudo hostname -f
+  242  sudo hostname
+  243  sudo /etc/init.d/apache2 status
+  244  cd
+  245  cd ..
+  246  ls
+  247  cd usuarios
+  248  ls
+  249  mkdir www
+  250  sudo mkdir www
+  251  cd albert
+  252  sudo mkdir www
+  253  cd ..
+  254  cd user1
+  255  sudo mkdir www
+  256  sudo nano /etc/apache2/sites-available/default
+  257  sudo /etc/init.d/apache2 restart
+  258  sudo /etc/init.d/apache2 status
+  259  cd www
+  260  cd ..
+  261  chmod -R 777 www
+  262  sudo chmod -R 777 www
+  263  ls -l
+  264  cd
+  265  pwd
+  266  cd ..
+  267  ls
+  268  cd etc/
+  269  ls
+  270  cd apache2/
+  271  ls
+  272  cd nano apache2.conf
+  273  sudo nano apache2.conf
+  274  sudo /etc/init.d/mysql restart
+  275  sudo /etc/init.d/mysql status
+  276  cd
+  277  cd ..
+  278  cd..
+  279  cd ..
+  280  sudo nano /etc/apache2/mods-enabled/userdir.conf
+  281  cd /etc/apache2
+  282  ls
+  283  cd mods-enabled/
+  284  ls
+  285  sudo nano dir.conf 
+  286  cd /usr/share/docs
+  287  cd /usr/share/
+  288  ls
+  289  cd doc
+  290  ls
+  291  cd phpmyadmin/
+  292  ls
+  293  cd examples/
+  294  ls
+  295  create_tables.sql.gz
+  296  ls -l
+  297  cd
+  298  sudo nano /etc/apache2/apache2.conf
+  299  sudo /etc/init.d/apache2 restart
+  300  sudo /etc/init.d/apache2 status
+  301  cd ..
+  302  cd usuarios
+  303  cd user1
+  304  mkdir public_html
+  305  sudo mkdir public_html
+  306  sudo chmod +777 public_html
+  307  ls -l
+  308  sudo chgrp www-data /home/usuarios/user1/public_html
+  309  sudo /etc/init.d/apache2 restart
+  310  sudo /etc/init.d/apache2 status
+  311  cd 
+  312  mysql -u root -p
+  313  sudo apt-get install phpmyadmin
+  314  sudo /etc/init.d/apache2 restart
+  315  sudo /etc/init.d/apache2 status
+  316  sudo nano /etc/mysql/my.cnf
+  317  sudo nano /etc/init.d/mysql restart
+  318  sudo  /etc/init.d/mysql restart
+  319  sudo  /etc/init.d/mysql status
+  320  mysql -u root -p
+  321  sudo asermod -a -G www-data albert
+  322  sudo usermod -a -G www-data albert
+  323  id albert
+  324  htpasswd -c /usr/local/apache/passwd/passwords rbowen
+  325  sudo htpasswd -c /usr/local/apache/passwd/passwords rbowen
+  326  cd /usr/local/apache/passwd/passwords
+  327  cd /usr/
+  328  ls
+  329  cd local
+  330  /
+  331  cd apache
+  332  ls
+  333  sudo /etc/init.d/apache2 status
+  334  ls
+  335  mkdir apache
+  336  sudo mkdir apache
+  337  cd apache
+  338  sudo mkdir passwd
+  339  cd passwd/
+  340  sudo mkdir passwords
+  341  htpasswd -c /usr/local/apache/passwd/passwords rbowen
+  342  sudo mkdir /home/gitgroup
+  343  sudo chgrp -R gitgroup /home/gitgroup
+  344  sudo chgrp -R gitgroup /gitrepo
+  345  cd /gitrepo
+  346  cd /srv/projects# mkdir myrepo
+  347  cd /srv
+  348  sudo cd /proyects
+  349  ls
+  350  mkdir my repo
+  351  mkdir myrepo
+  352  ls
+  353  mkdir projects
+  354  cd projects
+  355  mkdir repos
+  356  ls
+  357  ls -a1
+  358  ..
+  359  .
+  360  cd ../
+  361  sudo mkdir projects
+  362  cd projects
+  363  cd ../
+  364  cd /srv/projects
+  365  cd /srv/projects/
+  366  cd /srv
+  367  sudo mkdir proyects
+  368  cd proyects
+  369  sudo mkdir myrepo
+  370  cd myrepo
+  371  git init
+  372  sudo git init
+  373  ls
+  374  ls -al
+  375  sudo mkdir myremoterepo
+  376  cd ../
+  377  sudo mkdir myremoterepo
+  378  cd myremoterepo
+  379  git init  --bare
+  380  sudo git init --bare
+  381  sudo nano /etc/httpd/conf/httpd.conf
+  382  cd /etc
+  383  ls
+  384  cd
+  385  sudo su
+  386  mkdir gittest
+  387  ls
+  388  cdgittest/
+  389  cd gittest/
+  390  cd henrry/
+  391  ls
+  392  sudo echo"# henrry" >> README.md
+  393  echo"# henrry" >> README.md
+  394  git clone https://github.com/henrrytorres/henrry.git
+  395  ls
+  396  ls -al
+  397  cd henrry/
+  398  ls
+  399  ls -al
+  400  touth nuevocodigo.txt
+  401  touch nuevocodigo.txt
+  402  git status
+  403  git add .
+  404  git status
+  405  git commit -m "este es un nueo archivo"
+  406  git status
+  407  git push origin \
+  408  git push origin master
+  409  git status
+  410  git commit -m ''
+  411  git config -user.email "henrrytorresb1@gmail.com"
+  412  git config --global user.email "henrrytorresb1@gmail.com"
+  413  git config --global user.name "henrry"
+  414  git status
+  415  git commit -m "nuevo cambio"
+  416  git status
+  417  git push origin master
+  418  history >> nuevocodigo.txt 
